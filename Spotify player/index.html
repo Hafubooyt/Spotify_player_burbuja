@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Burbuja flotante -->
+    <div id="floating-bubble" class="floating-bubble">
+        <button id="toggle-bubble" class="toggle-bubble">🎵</button>
+        <div id="spotify-player" class="spotify-player">
+            <button id="close-player" class="close-player">✖</button>
+            <iframe src="https://open.spotify.com/embed/playlist/1qRpBJHkpwN5pevXlZYz4e?utm_source=generator&theme=0" 
+                    width="300" height="380" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <a href="https://open.spotify.com/playlist/1qRpBJHkpwN5pevXlZYz4e" target="_blank" class="player-link">Escucha mi playlist</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Burbuja flotante -->
+<div id="floating-bubble" class="floating-bubble">
+    <button id="toggle-bubble" class="toggle-bubble">🎵</button>
+    <div id="spotify-player" class="spotify-player">
+        <button id="close-player" class="close-player">✖</button>
+        <!-- aqui pones la play list que te da el codigo compartido de Spotify cuando le das compartir codigo eje: <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1qRpBJHkpwN5pevXlZYz4e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>-->
+        <iframe src="https://open.spotify.com/embed/playlist/1qRpBJHkpwN5pevXlZYz4e?utm_source=generator&theme=0" 
+                width="300" height="380" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <!-- aqui pones el link de la play list normal-->
+        <a href="https://open.spotify.com/playlist/1qRpBJHkpwN5pevXlZYz4e" target="_blank" class="player-link">Escucha mi playlist</a>
+    </div>
+</div>
+
+

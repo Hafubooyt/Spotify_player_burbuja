@@ -1,0 +1,76 @@
+/* Estilos para la burbuja flotante */
+.floating-bubble {
+    position: fixed;
+    top: 60px; /* Ajusta según el espacio debajo del header */
+    right: 10px;
+    z-index: 1000;
+}
+
+.toggle-bubble {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+.toggle-bubble:hover {
+    background-color: #1ed760;
+}
+
+.spotify-player {
+    display: none; /* Inicialmente oculto */
+    position: relative; /* Para posicionar el botón de cerrar */
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.spotify-player iframe {
+    width: 300px; /* Ajusta según el tamaño deseado */
+    height: 380px;
+}
+
+.player-link {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(29, 185, 84, 0.8);
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Estilo para el botón de cerrar */
+.close-player {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FF3B30;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+.close-player:hover {
+    background-color: #FF2D1A;
+}
+
+
